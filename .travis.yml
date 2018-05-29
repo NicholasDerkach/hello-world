@@ -1,0 +1,9 @@
+language: generic
+deploy:
+  provider: s3
+  access_key_id: AKIAIJNNYK6CQY2DMILQ
+  secret_access_key: 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
+  bucket: git-to-amazon-s3-outputbucket-18f1fjv2jmpt4
+  on:
+    repo: NicholasDerkach/hello-world
+  acl: public_read
