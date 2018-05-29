@@ -104,3 +104,15 @@ and (max-width: 950px){
 		min-width: 100vw;
 	}
 }
+
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px){
+	.first-row, .third-row{
+		flex-direction: column;	
+	}
+	.one, .two, .three, .four, .five, .six, .seven{
+		min-width: 100vw;
+	}
+}
