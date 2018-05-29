@@ -1,6 +1,6 @@
 body{
 	min-width: 300px;
-	margin:0px;
+	margin:0;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -54,8 +54,6 @@ body{
 	flex-direction: column;
 	min-width: 50%;
 	width: 50%;
-	min-height: 100hw; 
-	height: 100hw;
 }
 
 .four{
@@ -63,8 +61,6 @@ body{
 	border: 1px solid brown;
 	height: 65%;
 	padding: 2px;
-	min-width: 100px;
-	min-height: 180px;
 }
 
 .five{
@@ -72,8 +68,6 @@ body{
 	border: 1px solid brown;
 	height: 35%;
 	padding: 5px;
-	min-width: 100px;
-	min-height: 100px;
 }
 
 .seecond-column{
@@ -81,32 +75,22 @@ body{
 	display: -ms-flexbox;
 	flex-direction: column;
 	width: 50%;
-	min-height: 100hw; 
-	height: 100hw;
 }
 
 .six{
 	background: #FFDAB9;
 	border: 1px solid brown;
 	width: 100%;
-	/*width: 100vw;*/
 	padding: 5px;
-	height: 50hw;
 }
 
 .seven{
 	background: #EEE8AA;
 	border: 1px solid brown;
 	padding: 5px;
-	/*width: 100vw;*/
 	width: 100%;
-	height: 50hw;
 }
 
-img{
-	box-sizing: border-box;
-	width: 100%;
-}
 h3, .two{
 	text-align: center;
 }
