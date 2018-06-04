@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Natus Vincere</title>
+    <link rel="stylesheet" href="styles/lab3stl.css" media="screen">
+    <script src="scripts/formsc.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+    <h1 class="tekst">Natus Vincere</h1>
+</header>
+<main id="forma">
+
+    <section>
+        <nav>
+            <a href="main.html" class="zagg">Головна</a>
+            <a href="xmlshit.html" class="zagg">Зал слави</a>
+            <a href="canvas.html" class="zagg">Творчість</a>
+
+        </nav>
+        <form name="myForm" method="post" >
+            Ім'я:<br> <input type="text" name="imya" required="" title="Введіть ваше ім'я"><br>
+            Прізвище:<br> <input type="text" name="prizw" required="" title="Введіть ваше прізвище"><br>
+            Адреса електронної пошти: <br><input type="email" placeholder="aaa@example.com" name="poshta" required="" title="Введіть адресу вашої електронної пошти"><br>
+            Вік:<br>  <p><input type="date" name="created" required="" max="2000-05-29"></p><br>
+            Номер телефону:<br><input type="tel" name="quantity"  required="" placeholder="+380xxxxxxxxx" title="Введіть ваш номер телефону" pattern="+380[0-9]{9}"><br>
+            <fieldset>
+                <legend>Виберіть те, чим хочете зайнятися в офісі Na`Vi</legend>
+                <input type="checkbox">Фотосесія з Dendi<br>
+                <img width=30% height=15% src="dendi.png" alt="Dendi"><br>
+                <input type="checkbox" >Фотосесія з Edward<br>
+                <img width=30% height=15% src="edward.jpg" alt="Edward"><br>
+                <input type="checkbox" >Фотосесія з Zeus<br>
+                <img width=30% height=15% src="zeus.jpg" alt="Zeus"><br>
+            </fieldset>
+            <br/>
+
+            <div class="fileUpload  btn-primary">
+                <span>Виберіть ваше фото</span>
+                <input id="upload" type="file" class="upload" required=""/>
+            </div>
+            <div id="preview" class="prev"><img id="previewImg" src="#" alt="preview" ></div>
+            <div>
+            <input id="sumb" type="submit" value="Зарєструватися" >
+        </form>
+    </section>
+</main>
+</body>
+</html>

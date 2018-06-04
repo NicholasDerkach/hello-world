@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Natus Vincere</title>
+    <link rel="stylesheet" href="styles/lab3stl.css" media="screen">
+    <script src="scripts/dragndrop.js"></script>
+    <script src="scripts/canvassc.js"></script>
+    <!--<script type = "text/javascript" src = "scripts/paint.js"></script>-->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body background="">
+<header>
+    <h1 class="tekst">Natus Vincere</h1>
+
+</header>
+<main id="forma">
+
+
+    <section >
+        <nav>
+            <a href="main.html" class="zagg">Головна</a>
+            <a href="form.html" class="zagg">Реєстрація на поїздку</a>
+            <a href="xmlshit.html" class="zagg">Зал слави</a>
+        </nav>
+        <h3>Тут ви можете змінити логотип сайту</h3>
+        <div class="stylebox">
+
+            <img src="styles/backgr/1.png" alt="red" id='l1' width="60vw" height="70vw"><br>
+            <img src="styles/backgr/2.png" alt="green" id='l2' width="80vw" height="80vw"><br>
+            <img src="styles/backgr/3.png" alt="blue" id='l3' width="60vw" height="70vw"><br>
+            <img src="styles/backgr/4.png" alt="yellow" id='l4' width="70vw" height="70vw">
+            <div class="drop"></div>
+        </div>
+        <br/>
+		<h3>Намалюйте, що хочете</h3>
+        <div id='colors'>
+	        <button id='black' onclick='changeColor("black")' ontouchstart='changeColor("black")'></button>
+		    <button id='red' onclick='changeColor("red")' ontouchstart='changeColor("red")'></button>
+		    <button id='green' onclick='changeColor("green")' ontouchstart='changeColor("green")'></button>
+		    <button id='blue' onclick='changeColor("blue")' ontouchstart='changeColor("blue")'></button>
+		    <button id='orange' onclick='changeColor("orange")' ontouchstart='changeColor("orange")'></button>
+		    <button id='pink' onclick='changeColor("pink")' ontouchstart='changeColor("pink")'></button>
+	    </div>
+	    <canvas id='canvas' width='300' height='200'></canvas>
+	    <div>
+	        <button onclick='clearCanvas()'>Очистити</button>
+	    </div>
+
+    </section>
+
+</main>
+</body>
+</html>
