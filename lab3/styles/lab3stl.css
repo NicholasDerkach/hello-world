@@ -1,0 +1,179 @@
+body{
+   background: url("../999.jpg") fixed no-repeat;
+}
+section {
+   margin-left: 10px;
+   padding-left: 10px;
+   background: rgba(255,255,255,0.7);
+}
+#info {
+   width: 80%;
+   margin: 0px;
+   display: block;
+   float: right;
+}
+#forma{
+   width: 60%;
+   margin-left: 20%;
+   display: block;
+
+}
+aside {
+   display: block;
+   float: left;
+   width: 15%;
+   border-radius: 5px;
+   background: rgba(255,255,255,0.7);
+   margin-top: 10px;
+   margin-left: 10px;
+   padding: 0px;
+   margin-right: auto;
+}
+main{
+   background: url('backgr/3.png') no-repeat  center;
+}
+nav {
+   padding-left: 10px;
+   display: block;
+   width: 100%;
+}
+
+.drop {
+   border-radius: 10px;
+   border-style: dashed;
+   border-width: 3px;
+   border-color: black;
+   float: right;
+   height: 20%;
+   width: 200px;
+
+}
+.stylebox {
+   width: 95%;
+   height: 335px;
+   border: 1px solid black;
+   border-image:  8 stretch;
+   border-width: 4px;
+}
+#bcanvas{
+   background: aliceblue;
+}
+footer{
+   margin-left: 10px;
+   padding-left: 10px;
+   background-color: #E8E8E8;
+   background: rgba(255,255,255,0.7);
+}
+#draw{
+   background-color: orangered;
+}
+#wrapper { position: relative; }
+#tablet { border: 1px solid #111; }
+#for_canvas{
+   width: 30vw;
+   height: 35vh;
+}
+
+#canvas
+{
+    border: 1px solid black;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+}
+#colors button
+{
+    width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	margin-top: 0px;
+}
+#black 
+{
+    background: black;
+}
+#pink 
+{
+    background: pink;
+}
+#red
+{
+    background: red;
+}
+#green 
+{ 
+    background: green;
+}
+#blue 
+{
+    background: blue;
+}
+#orange 
+{
+    background: orange;
+}
+.cnv{
+   width: 30vw;
+   height: 35vh;
+}
+.zagg{
+   line-height: 30px;
+   display: inline-block;
+   text-decoration: none;
+   color: black;
+   margin:  10px;
+   white-space: nowrap;
+
+   vertical-align: middle;
+}
+.tekst{
+   font-family: "Monotype Corsiva";
+   margin-left: 20%;
+   color: red;
+   text-shadow:green 0 0 2px;
+}
+.teks{
+   font-family: "Monotype Corsiva";
+   color: red;
+   text-shadow:green 0 0 2px;
+
+}
+
+.fileUpload {
+   position: relative;
+   display: inline-block;
+   overflow: hidden;
+   margin: 10px 0;
+   padding: 10px;
+   border-radius: 3px;
+   cursor: pointer;
+   background-color: lightblue;
+   color: #151515;
+}
+.fileUpload .upload {
+   position: absolute;
+   top: 0;
+   right: 0;
+   margin: 0;
+   padding: 0;
+   font-size: 20px;
+   cursor: pointer;
+   opacity: 0;
+}
+
+.prev img{
+   max-width: 300px;
+   max-height: 200px;
+   margin: 10px 0;
+   border-radius: 3px;
+}
+
+img {
+   max-width: 300px;
+   max-height: 200px;
+   margin: 10px 0;
+   border-radius: 3px;
+}
+#l1,#l2,#l3,#l4{
+   width: 4vw;
+   height: 4.5vw;
+}
