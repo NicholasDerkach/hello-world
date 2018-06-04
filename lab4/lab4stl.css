@@ -1,0 +1,36 @@
+
+body{
+background-color: grey;
+    font-family: "Comic Sans MS";
+}
+
+.slideshow-container {
+    top: 145vh;
+    max-width: 100vw;
+    position: absolute;
+}
+
+
+.mySlide {
+    display: none;
+}
+
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+#tt{
+top: 300px;
+}
+#yum{
+    top:180vh;
+}
+
+
+
+
+
+
