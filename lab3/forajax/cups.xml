@@ -1,27 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <trofies>
   <cup>
-    <name>Чемпіонат Англії</name>
-  <amount>18</amount>
-  </cup>
-<cup>
-    <name>Кубок Англії</name>
-  <amount>7</amount>
-  </cup>
-<cup>
-    <name>Суперкубок Англії</name>
-  <amount>15</amount>
-  </cup>
-<cup>
-    <name>Ліга Чемпіонів</name>
+    <name>StarLader</name>
   <amount>5</amount>
   </cup>
 <cup>
-    <name>Ліга Європи</name>
-  <amount>3</amount>
+    <name>Epicenter</name>
+  <amount>2</amount>
   </cup>
 <cup>
-    <name>Суперкубок Європи</name>
-  <amount>3</amount>
+    <name>The International</name>
+  <amount>1</amount>
+  </cup>
+<cup>
+    <name>ESL one</name>
+  <amount>1</amount>
   </cup>
 </trofies>
