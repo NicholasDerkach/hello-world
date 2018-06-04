@@ -55,8 +55,6 @@ var winload= function () {
                     cell.innerHTML = data[i].name;
                     cell = row.insertCell(1);
                     cell.innerHTML = data[i].played;
-                    cell = row.insertCell(2);
-                    cell.innerHTML = data[i].scored;
 
 
                 }
